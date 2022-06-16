@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@100;400&family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lexend deca";
+}
+body{
+    background-color:  hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+main{
+   display: flex; 
+   height: 100vh;
+   width: 50%;
+   /*justify-content: center;*/
+   align-items: center;
+   margin: auto;
+   flex-direction: row;
+   justify-content: center;
+}
+img{
+    margin-top: 25px ;
+    margin-bottom: 20px;
+}
+
+h2{
+    color:  hsl(0, 0%, 95%);
+    margin-bottom: 50px;
+    font-family: 'Big Shoulders Display';
+}
+p{
+    color:  hsl(0, 0%, 95%);
+    margin-bottom: 50px;
+}
+.first{
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    width: 100%;
+    height: 70%;
+    line-height: 1.45;
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    width: 100%;
+    height: 70%;
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    width: 100%;
+    height: 70%;
+}
+.first-button{
+    margin-top: 15px;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    color: hsl(31, 77%, 52%);
+    width: 100px;
+    cursor: pointer;
+}
+.second-button{
+    margin: 2px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    color: hsl(184, 100%, 22%);
+    width: 100px;
+    cursor: pointer;
+}
+ .third-button{
+    margin: 2px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    color: hsl(179, 100%, 13%);
+    width: 100px;
+    cursor: pointer;
+}
+
+    
+
+ /*phone style*/
+ @media screen  and (max-width: 450px) {
+    main{
+        flex-direction: column;
+        padding: 2px;
+        margin: 5px;
+        width: auto;
+    }
+    
+}
