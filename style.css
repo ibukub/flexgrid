@@ -8,6 +8,20 @@
 body{
     background-color:  hsl(0, 0%, 100%);
     font-size: 15px;
+    padding: 15px;
+}
+header{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+header a{
+    text-decoration: none;
+    background-color: #d4e20f;
+    border-radius: 10px;
+    box-shadow: 2 2 5 5 #e3e996;
+    padding: 15px;
+    font-weight: bolder;
+    color: rgb(20, 20, 54);
 }
 main{
    display: flex; 
@@ -33,6 +47,13 @@ p{
     color:  hsl(0, 0%, 95%);
     margin-bottom: 50px;
 }
+.first h2{
+    margin-bottom: 40px;
+    
+}
+.first p{
+    margin-bottom: 30px;
+}
 .first{
     background-color: hsl(31, 77%, 52%);
     padding: 20px;
@@ -53,7 +74,7 @@ p{
     height: 70%;
 }
 .first-button{
-    margin-top: 15px;
+    margin-top: 10px;
     margin: 2px;
     padding: 10px;
     border-radius: 30px;
@@ -85,11 +106,21 @@ p{
 
  /*phone style*/
  @media screen  and (max-width: 450px) {
+    header{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    header a{
+        margin: 2px;
+        border: 1 solid rgb(14, 51, 14);
+    }
     main{
         flex-direction: column;
         padding: 2px;
         margin: 5px;
         width: auto;
+        height: fit-content;
     }
     
 }
