@@ -5,9 +5,23 @@
 }
 body{
     background: rgb(26, 17, 17);
-    display: flex;
+    padding: 10px;
     place-items: center;
     min-height: 100vh;
+}
+
+header{
+    margin-bottom: 150px;
+    margin-top: 10px;
+}
+header a{
+    text-decoration: none;
+    background-color: #d4e20f;
+    border-radius: 10px;
+    box-shadow: 2 2 5 5 #e3e996;
+    padding: 15px;
+    font-weight: bolder;
+    color: rgb(20, 20, 54);
 }
 main{
     display: grid;
@@ -17,6 +31,7 @@ main{
     'c d d'
     'c e e'
     ;
+    
     gap: 20px;
     width: 50%;
     margin: auto;
